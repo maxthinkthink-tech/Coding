@@ -1,4 +1,4 @@
-package brain;
+package datastructure.string;
 
 import java.util.Set;
 import java.util.stream.Collectors;

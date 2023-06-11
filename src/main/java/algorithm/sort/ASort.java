@@ -1,4 +1,4 @@
-package brain;
+package algorithm.sort;
 
 public class ASort {
     public static void main(String[] args) {

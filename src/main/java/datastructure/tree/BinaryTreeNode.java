@@ -1,9 +1,9 @@
-package brain.tree;
+package datastructure.tree;
 
 public class BinaryTreeNode {
         int val;
-        brain.tree.BinaryTreeNode left;
-        brain.tree.BinaryTreeNode right;
+        BinaryTreeNode left;
+        BinaryTreeNode right;
 
         BinaryTreeNode() {
         }
@@ -12,7 +12,7 @@ public class BinaryTreeNode {
             this.val = val;
         }
 
-        BinaryTreeNode(int val, brain.tree.BinaryTreeNode left, brain.tree.BinaryTreeNode right) {
+        BinaryTreeNode(int val, BinaryTreeNode left, BinaryTreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;

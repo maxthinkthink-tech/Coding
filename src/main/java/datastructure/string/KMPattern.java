@@ -1,4 +1,4 @@
-package brain;
+package datastructure.string;
 
 public class KMPattern {
     public static void main(String[] args) {

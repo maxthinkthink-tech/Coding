@@ -1,4 +1,4 @@
-package brain;
+package datastructure.stack;
 
 import java.util.LinkedList;
 import java.util.List;

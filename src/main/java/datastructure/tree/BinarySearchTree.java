@@ -1,4 +1,4 @@
-package brain.tree;
+package datastructure.tree;
 
 import java.util.HashMap;
 import java.util.Map;

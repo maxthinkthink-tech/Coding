@@ -1,4 +1,4 @@
-package brain;
+package datastructure.array;
 
 public class IntegerArraySquareSort {
     public static void main(String[] args) {

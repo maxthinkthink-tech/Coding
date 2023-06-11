@@ -1,4 +1,4 @@
-package brain;
+package algorithm.dp;
 
 import java.util.HashMap;
 import java.util.Map;

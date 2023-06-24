@@ -3,4 +3,6 @@ Record my learning route and the resources I used.
 
 
 ### Resources:
-https://www.happycoders.eu/
+[HappyCoders](https://www.happycoders.eu/)
+
+[OI Wiki](https://oi-wiki.org/)

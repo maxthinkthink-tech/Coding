@@ -20,4 +20,22 @@ public class RemoveDuplicates {
         }
         return j;
     }
+
+
+    public int removeDuplicatesWithCount(int[] nums) {
+        if (nums == null) {
+            return 0;
+        }
+        if (nums.length <= 2) {
+            return nums.length;
+        }
+        int j = 2;
+        for (int i = 2; i < nums.length; i++) {
+            if (nums[i] != nums[j-2]) {
+                nums[j] = nums[i];
+                j++;
+            }
+        }
+        return j;
+    }
 }

@@ -3,7 +3,7 @@ package datastructure.stack;
 import java.util.LinkedList;
 import java.util.List;
 
-public class stack {
+public class ListStack {
     private Integer minElement = null;
     private List<Integer> elementList = new LinkedList<>(); 
 

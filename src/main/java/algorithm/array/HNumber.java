@@ -11,6 +11,7 @@ public class HNumber {
     public static int hIndex(int[] citations) {
         Arrays.sort(citations);
         int c = citations.length;
+
         for (int i = 0; i < citations.length; i++) {
             if (citations[i] >= c) {
                 return  c;

@@ -36,7 +36,7 @@ public class SkipGame {
         String x = new String("xxx");
         x.toCharArray();
 //        x.
-        StringBuilder
+//        StringBuilder
         return cnt++;
     }
 }

@@ -20,6 +20,7 @@ public class NextPermutation {
                 nums[i-1] = tmp;
 
                 // i,n 范围内的数据 从小打大排序
+                // i,n 已经是降序，直接变升序（交换前后不改变该属性）
                 Arrays.sort(nums, i, nums.length);
                 return;
             }

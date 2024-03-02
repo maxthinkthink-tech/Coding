@@ -1,4 +1,4 @@
-package datastructure.tree;
+package datastructure.tree.binary;
 
 import java.util.HashMap;
 import java.util.Map;

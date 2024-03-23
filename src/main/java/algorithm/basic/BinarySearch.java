@@ -1,6 +1,11 @@
 package algorithm.basic;
 
 public class BinarySearch {
+    public static void main(String[] args) {
+        int[] a = {-1,0,3,5,9,12};
+        int r = search(a, 9);
+        System.out.println(r);
+    }
     public static int search(int[] nums, int target) {
         int l = 0;
         int r = nums.length;

@@ -1,6 +1,8 @@
+package algorithm.basic;
+
 import java.util.Stack;
 
-public class Main {
+public class PolishNotation {
     public static void main(String[] args) {
         String x = "- + + + * 3 4 2 1 / * 5 6 2 8";
         String[] xa = x.split(" ");

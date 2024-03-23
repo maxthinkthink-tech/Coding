@@ -15,7 +15,7 @@ public class MinSubArrayLen {
         int r = 0;
         int min = Integer.MAX_VALUE;
         while (r < nums.length) {
-            s += nums[r++];
+            s += nums[r++];  // r 已经+1了,所以求长度的时候是 r-l, 不是 r-l+1
             while(s >= target) {
                 min = Math.min(min, r-l);
                 s = s - nums[l++];

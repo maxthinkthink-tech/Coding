@@ -9,6 +9,16 @@ public class AQueue {
         PriorityQueue<String> priorityQueue = new PriorityQueue<String>();
         Stack<String> stack = new Stack<>();
         Set<String> set = new HashSet<>();
-
+//        queue.poll();
+//        deque.offerFirst();
+//
+//        deque.pollFirst();
+//        deque.pollLast();
+//        Arrays.copyOf();
+        int[] r = new int[10];
+//        Arrays.copyOfRange();
+//        System.arraycopy();
+        StringBuilder sb = new StringBuilder();
+        sb.reverse();
     }
 }
